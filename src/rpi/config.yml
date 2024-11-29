@@ -1,0 +1,18 @@
+#driving parameters
+speed: 0.35 # between 0 and 1, for my car is -0.5 ~ 0.5
+drivingTime: 0.15 # in seconds
+drivingTimeTurning: 0.1 # in seconds
+
+# distances for Ultrasonic Sensor (in cm)
+distanceStop: 20
+distanceSlow: 60
+
+#camera resolution:
+resolutionX: 640 
+resolutionY: 480 
+fps: 45
+
+# connection
+ip: '192.168.43.191' # SYB's PC under SYB's phone WiFi (server)
+car_ip: '192.168.43.164'  # car under SYB's phone WiFi
+car_port: '/dev/ttyAMA0'
